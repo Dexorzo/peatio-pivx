@@ -1,0 +1,56 @@
+{
+  "result": {
+    {
+	  "txid": "bda40f63c61d76463e5c5ca8750c8f711d7f8fc0735b1c629e06fc3e76ce2c4e",
+	  "version": 1,
+	  "type": 0,
+	  "size": 226,
+	  "locktime": 0,
+	  "vin": [
+		{
+		  "txid": "032b09a42805d0c95f14595ce82907441e097eebfd8dd275be2ff6a625ef7b62",
+		  "vout": 0,
+		  "scriptSig": {
+			"asm": "3045022100d7ec0957b912b56e094177c122b34f7315e17139079819d5cff8764a35786f5f02206db7f36e6683930ab8f0d0a70a1c0ba9eafccb25125fe9a8ffa94197d5963d9b[ALL] 02943399de759ea054e21dce2431439b88497a910d479684b7e8c4306cb5a47512",
+			"hex": "483045022100d7ec0957b912b56e094177c122b34f7315e17139079819d5cff8764a35786f5f02206db7f36e6683930ab8f0d0a70a1c0ba9eafccb25125fe9a8ffa94197d5963d9b012102943399de759ea054e21dce2431439b88497a910d479684b7e8c4306cb5a47512"
+		  },
+		  "sequence": 4294967295
+		}
+	  ],
+	  "vout": [
+		{
+		  "value": 34712.6556825,
+		  "n": 0,
+		  "scriptPubKey": {
+			"asm": "OP_DUP OP_HASH160 a1a0030ee864b3ee1c84709e42dd9f0eae5d97c6 OP_EQUALVERIFY OP_CHECKSIG",
+			"hex": "76a914a1a0030ee864b3ee1c84709e42dd9f0eae5d97c688ac",
+			"reqSigs": 1,
+			"type": "pubkeyhash",
+			"addresses": [
+			  "yBiSLobEz82vmcETkyeoU6Vx5VRCiKnGAv"
+			]
+		  }
+		},
+		{
+		  "value": 1154.40424627,
+		  "n": 1,
+		  "scriptPubKey": {
+			"asm": "OP_DUP OP_HASH160 25e47d14e5615f46dd16adb0eac0656c5c461c4d OP_EQUALVERIFY OP_CHECKSIG",
+			"hex": "76a91425e47d14e5615f46dd16adb0eac0656c5c461c4d88ac",
+			"reqSigs": 1,
+			"type": "pubkeyhash",
+			"addresses": [
+			  "xzSCark5FXGWn96WCZE4sctCFQ5TonhmjD"
+			]
+		  }
+		}
+	  ],
+	  "hex": "0100000001627bef25a6f62fbe75d28dfdeb7e091e440729e85c59145fc9d00528a4092b03000000006b483045022100d7ec0957b912b56e094177c122b34f7315e17139079819d5cff8764a35786f5f02206db7f36e6683930ab8f0d0a70a1c0ba9eafccb25125fe9a8ffa94197d5963d9b012102943399de759ea054e21dce2431439b88497a910d479684b7e8c4306cb5a47512ffffffff02fa158d37280300001976a914a1a0030ee864b3ee1c84709e42dd9f0eae5d97c688acb316c9e01a0000001976a91425e47d14e5615f46dd16adb0eac0656c5c461c4d88ac00000000",
+	  "blockhash": "4222ddec47dde22befd9e6310b03bbe25699f1290f8a14b9a0fefdbc299018c0",
+	  "confirmations": 1298,
+	  "time": 1620798420,
+	  "blocktime": 1620798420
+	},
+	  "error": null,
+	  "id": "curltest"
+	}

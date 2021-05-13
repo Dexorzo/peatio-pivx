@@ -1,0 +1,44 @@
+- name:             Pivx Deposit Wallet
+  blockchain_key:   pivx-testnet
+  currency_id:      pivx
+  # Address where deposits will be collected to.
+  address:          'yHzcP8Cb3U22GcZVqC57D1y3h1tHCvgMo9'  # IMPORTANT: Always wrap this value in quotes!
+  kind:             deposit    # Wallet kind (deposit, hot, warm, cold or fee).
+  nsig:             1          # Number of signatures required for performing withdraw.
+  max_balance:      0.0
+  status:           active
+  gateway:          pivxd  # Gateway client name.
+  settings:
+    #
+    # Pivxd gateway client settings.
+    uri:          http://admin:changeme@127.0.0.1:51475
+
+- name:             Pivx Hot Wallet
+  blockchain_key:   pivx-testnet
+  currency_id:      pivx
+  # Address where deposits will be collected to.
+  address:          'y61txE5u24tDhcTpokH7xynNRdyVzhcRP4'  # IMPORTANT: Always wrap this value in quotes!
+  kind:             hot     # Wallet kind (deposit, hot, warm, cold or fee).
+  nsig:             1       # Number of signatures required for performing withdraw.
+  max_balance:      500.0
+  status:           active
+  gateway:          pivxd   # Gateway client name.
+  settings:
+    #
+    # Pivxd gateway client settings.
+    uri:          http://admin:changeme@127.0.0.1:51475
+
+- name:             Pivx Warm Wallet
+  blockchain_key:   pivx-testnet
+  currency_id:      pivx
+  # Address where deposits will be collected to.
+  address:          'y2GRSq8YbWkL7tWoo97Vfih3pw1QWZjkmT'  # IMPORTANT: Always wrap this value in quotes!
+  kind:             warm    # Wallet kind (deposit, hot, warm, cold or fee).
+  nsig:             1       # Number of signatures required for performing withdraw.
+  max_balance:      5000.0
+  status:           active
+  gateway:          pivxd   # Gateway client name.
+  settings:
+    #
+    # Pivxd gateway client settings.
+    uri:          http://admin:changeme@127.0.0.1:51475
